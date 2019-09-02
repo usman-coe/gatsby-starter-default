@@ -37,5 +37,12 @@ module.exports = {
         // Accepts all options defined by `babel-plugin-emotion` plugin.
       },
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: ["Sarabun:100,200,300,400,500,600,700,800"],
+        display: "swap",
+      },
+    },
   ],
 }
