@@ -40,8 +40,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: ["Sarabun:100,200,300,400,500,600,700,800"],
+        fonts: ["Sarabun:400,700"],
         display: "swap",
+      },
+    },
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
       },
     },
   ],

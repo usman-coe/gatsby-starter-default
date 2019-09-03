@@ -36,7 +36,6 @@ const Layout = ({ children }: LayoutProps) => {
           padding-top: 0;
           padding: 0px 1.0875rem 1.45rem;
           margin: 0 auto;
-          font-family: "Sarabun";
         `}
       >
         <main>{children}</main>
