@@ -50,5 +50,12 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    {
+      resolve: "gatsby-plugin-webpack-bundle-analyzer",
+      options: {
+        analyzerHost: "0.0.0.0",
+        analyzerPort: 9001,
+      },
+    },
   ],
 }
